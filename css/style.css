@@ -7,14 +7,15 @@
     padding: 0;
     box-sizing: border-box;
     width: 1920px;
-    height: 6540px;
+    height: 906px;
+    /* height: 6540px; */
     overflow: hidden;
     box-sizing: border-box;
 }
 .organization_info_wrap{
     position: absolute;
     border: 1px solid black;    /* 나중에 지울 것 */
-    top: 2690px;
+    /* top: 2690px; */
     left: 240px;
     width: 1420px;
     height: 666px;
@@ -24,21 +25,21 @@
     position: relative;
     /* top: 2690px;
     left: 240px; */
-    width: 132px;
+    /* width: 132px; */
     height: 84px;
     opacity: 1;
     padding: 0;
     margin: 0;
 }
 .name_font{
-    font-size: 40px;
+    font: normal normal bold 40px/58px Noto Sans KR;
     color: #1e1e1e;
     text-align: left;
     letter-spacing: 0px;
     opacity: 1;
 }
 .sub_name_font{
-    font-size: 18px;
+    font: normal normal medium 18px/26px Noto Sans KR;
     color: #c8c8c8;
     text-align: left;
     letter-spacing: 0px;
