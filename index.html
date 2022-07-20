@@ -7,6 +7,8 @@
     <title>Document</title>
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- wow기능 animation.css -->
+    <link rel="stylesheet" href="./css/animate.css">
     <!-- 구글폰트 -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
@@ -40,8 +42,31 @@
     </div>
 
     <!-- 오시는 길 -->
-    <div class="map_wrap">
-
+    <div class="direction">
+        <div class="direction_wrap">
+            <div class="name_box">
+                <div class="name_font">오시는 길</div>
+                <div class="sub_name_font">DIRECTIONS</div>
+            </div>
+            <div id="map" class="index_kakao_map wow fadeIn" data-wow-delay="0.3s" style="animation-delay: 0.3s; animation-name:fadeIn;"></div>
+            <div class="map_info_wrap">
+                <div class="map_info under">
+                    <p class="tel">연락처</p>
+                    <p class="tel_info">TELL. (053) 475-2110 FAX. (0504) 257-5966 E-MAIL. call@resoft.kr</p>
+                </div>
+                <div class="map_info under2">
+                    <p class="address">주소</p>
+                    <p class="address_info">(41260) 대구광역시 동구 동대구로 465, 대구스케일업허브(DASH) 713호 (주)리소프트</p>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- 카카오 api -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=027b7e5db240a01344d08087c7742cd4"></script>
+    <!-- wow.js -->
+    <script src="./js/wow.min.js"></script>
+    <!-- map.js -->
+    <script src="./js/map.js"></script>
 </body>
 </html>
